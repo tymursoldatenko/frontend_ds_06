@@ -4,8 +4,14 @@
 
 .menu__item {
     display: inline-block;
-    font-size: 1rem;
     position: relative;
+}
+
+.menu__item,
+.dropdown-menu__item {
+    font-size: 1rem;
+    background-color: red;
+    padding: 2% 3%;
 }
 
 .menu__item:hover .dropdown-menu{
