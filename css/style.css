@@ -5,17 +5,28 @@
 .menu__item {
     display: inline-block;
     position: relative;
+    width: 14%;
+    padding: 1% 2%;
 }
 
 .menu__item,
 .dropdown-menu__item {
     font-size: 1rem;
     background-color: red;
-    padding: 2% 3%;
+}
+
+.menu__link,
+.dropdown-menu__link {
+    text-decoration: none;
+    color: white;
 }
 
 .menu__item:hover .dropdown-menu{
     display: block;
+}
+
+.menu__item:hover {
+    background-color: black;
 }
 
 .dropdown-menu {
