@@ -7,3 +7,12 @@
     font-size: 1rem;
     position: relative;
 }
+
+.menu__item:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
