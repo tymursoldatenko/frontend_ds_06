@@ -39,3 +39,25 @@
 .dropdown-menu__item {
     width: 120%;
 }
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.1875rem;
+}
+
+.main {
+    margin-top: 5%;
+    display: inline-flex;
+}
+
+.picture {
+    width: 100px;
+}
+
+.main__item {
+    width: 150px;
+    border: 2px solid black;
+}
